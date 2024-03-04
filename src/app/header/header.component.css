@@ -1,3 +1,30 @@
-h1{
-    background-color: red;
+.navbar {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 85px;
+    color: rgb(74, 85, 104);;
+}
+.call-style {
+    background-color: rgb(246, 224, 94);
+    color: rgb(116, 66, 16);
+    border-radius: 30px;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.nav-link:hover {
+    background-color: rgb(246, 224, 94);
+}
+
+.dropdown-menu {
+    border: none;
+    border-top-left-radius: 0;
+    padding: 0 0 0 0;
+}
+
+.dropdown-item:hover {
+    background-color: rgba(246, 224, 94, 0.3);
 }
