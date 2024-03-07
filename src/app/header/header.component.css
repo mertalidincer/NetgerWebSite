@@ -1,3 +1,50 @@
+@media (max-width: 990px) {
+    .mobile-header {
+        display: flex !important;
+    }
+    .navbar {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1088px) {
+    .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding-right: 5px !important;
+        padding-left: 5px !important;
+        width: 100%;
+    }
+}
+
+@media (max-width: 450px) {
+    .mobile-header {
+        display: block !important;
+    }
+    .call-style, .call-style2 {
+        width: 50px !important;
+        font-size: 10px !important;
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 770px) {
+    .mobile-header {
+        font-size: 12px;
+    }
+
+    .call-style, .call-style2 {
+        width: 100px !important;
+    }
+
+    .navbar {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+        width: 100%;
+    }
+}
+
 .navbar {
     font-family: "Poppins", sans-serif;
     font-size: 14px;
@@ -8,6 +55,12 @@
 .call-style {
     background-color: rgb(246, 224, 94);
     color: rgb(116, 66, 16);
+    border-radius: 30px;
+}
+
+.call-style2 {
+    background-color: rgb(56, 161, 105);
+    color: rgb(240, 255, 244);
     border-radius: 30px;
 }
 
@@ -23,6 +76,7 @@
     border: none;
     border-top-left-radius: 0;
     padding: 0 0 0 0;
+    min-width: 200px;
 }
 
 .dropdown-item:hover {
