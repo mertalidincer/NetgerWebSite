@@ -1,3 +1,8 @@
+.disDiv {
+    position: relative; /* .disDiv'i relative olarak ayarla */
+    width: 100%; /* Genişliği ayarla */
+    height: auto; /* Yüksekliği otomatik olarak ayarla */
+}
 .overlay {
     position: absolute;
     top: 50%;
@@ -6,9 +11,8 @@
     text-align: center;
     color: white;
     padding: 20px;
-    width: 100%; /* Overlay'in genişliğini ayarlar */
+    width: 80%; /* Overlay'in genişliğini ayarla */
     box-sizing: border-box; /* padding ve border'ı içeri alır */
-    height: 400px;
 }
 
 .overlay h1 {
