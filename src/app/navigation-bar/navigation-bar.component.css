@@ -1,3 +1,30 @@
-h1{
-    background-color: pink;
-}
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .nav-button {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    background-color: #e0e0e0; 
+    color: black;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-button:hover {
+    background-color: white
+  }
+  
+  @media screen and (max-width: 850px) {
+    .navbar {
+      flex-direction: column;
+    }
+    .nav-button {
+      width: 100%; /* Kutucuklar ekranın yatay olarak tamamını kaplar */
+  }
+  }
+  
