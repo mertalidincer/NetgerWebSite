@@ -1,9 +1,67 @@
-@media (max-width: 990px) {
+@media (max-width: 991px) {
     .mobile-header {
         display: flex !important;
+        font-size: 13px;
+    }
+
+    .offcanvas {
+        background-color: #ecc94b;
+        width: 100%;
+    }
+
+    .offcanvas-title {
+        display: none;
     }
     .navbar {
         width: 100%;
+    }
+
+<<<<<<< Updated upstream
+    .large-header {
+        display: none;
+    }
+
+    .small-header {
+        display: block;
+    }
+}
+
+@media (max-width:1144px) {
+    .navbar {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+}
+
+@media (max-width:1044px) {
+
+    .navbar {
+        height: 70px !important;
+    }
+
+    .navbar-brand img {
+        width: 90px;
+    }
+
+    .offcanvas-body {
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 991px) {
+    .small-header {
+        display: none;
+=======
+    .navbar-nav {
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+        height: 100% !important;
+    }
+
+    .offcanvas-body {
+        height: 100%;
+>>>>>>> Stashed changes
     }
 }
 
