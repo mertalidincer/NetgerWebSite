@@ -16,6 +16,7 @@
         width: 100%;
     }
 
+<<<<<<< Updated upstream
     .large-header {
         display: none;
     }
@@ -50,6 +51,17 @@
 @media (min-width: 991px) {
     .small-header {
         display: none;
+=======
+    .navbar-nav {
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+        height: 100% !important;
+    }
+
+    .offcanvas-body {
+        height: 100%;
+>>>>>>> Stashed changes
     }
 }
 
