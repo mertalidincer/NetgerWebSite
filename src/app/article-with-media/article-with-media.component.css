@@ -1,3 +1,19 @@
-h1{
-    background-color: red;
+@media (max-width: 1144px) {
+    .media {
+        width: 75% !important;
+    }
+    .context {
+        padding: 20px !important;
+    }
+}
+
+.call-style2 {
+    background-color: rgb(246, 224, 94);
+    color: rgb(116, 66, 16);
+    border-radius: 30px;
+    border: 2px #ecc94b solid;
+}
+
+.call-style2:hover {
+    background-color: rgba(246, 224, 94, 0.70);
 }
